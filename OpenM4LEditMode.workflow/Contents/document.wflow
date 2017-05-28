@@ -20,7 +20,122 @@
 					<key>Optional</key>
 					<true/>
 					<key>Types</key>
-					<array/>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.1.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>fileNames</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Get Specified Finder Items.action</string>
+				<key>ActionName</key>
+				<string>Get Specified Finder Items</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>fileNames</key>
+					<array>
+						<string>~/Documents/Ableton/SamiskMusikk Project/SamiskMusikk.als</string>
+					</array>
+				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>fileNames</key>
+					<array>
+						<string>~/Documents/Ableton/SamiskMusikk Project/SamiskMusikk.als</string>
+					</array>
+					<key>temporary items path</key>
+					<string>/var/folders/xg/6xh4w2j12ld85q25t6l0xglc0000gn/T/16191649-5F7E-4D1B-8A26-E266B32847BF/1/com.apple.Automator.SpecifiedFiles</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.SpecifiedFiles</string>
+				<key>CFBundleVersion</key>
+				<string>1.1.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryFilesAndFolders</string>
+				</array>
+				<key>Class Name</key>
+				<string>SpecifiedFilesAction</string>
+				<key>InputUUID</key>
+				<string>4401A7EE-A9C1-405C-96B7-CEF828572378</string>
+				<key>Keywords</key>
+				<array>
+					<string>File</string>
+					<string>Choose</string>
+					<string>Find</string>
+					<string>Get</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>B1FD6261-9922-4583-8EC1-54D9BC4BE255</string>
+				<key>UUID</key>
+				<string>65CA91B5-230E-4F90-83EA-9BA790ED2A24</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<array/>
+						<key>name</key>
+						<string>fileNames</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>769.000000:240.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Get Specified Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
 				</dict>
 				<key>AMActionVersion</key>
 				<string>1.1.1</string>
@@ -43,12 +158,14 @@
 					<key>Container</key>
 					<string>List</string>
 					<key>Types</key>
-					<array/>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
 				</dict>
 				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Launch Application.action</string>
+				<string>/System/Library/Automator/Open Finder Items.action</string>
 				<key>ActionName</key>
-				<string>Launch Application</string>
+				<string>Open Finder Items</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>appPath</key>
@@ -59,33 +176,34 @@
 					<key>appPath</key>
 					<string>/Applications/Ableton Live 9 Suite.app</string>
 					<key>temporary items path</key>
-					<string>/var/folders/xg/6xh4w2j12ld85q25t6l0xglc0000gn/T/16191649-5F7E-4D1B-8A26-E266B32847BF/1/com.apple.Automator.OpenApplication</string>
+					<string>/var/folders/xg/6xh4w2j12ld85q25t6l0xglc0000gn/T/16191649-5F7E-4D1B-8A26-E266B32847BF/1/com.apple.Automator.OpenFinderItems</string>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.OpenApplication</string>
+				<string>com.apple.Automator.OpenFinderItems</string>
 				<key>CFBundleVersion</key>
 				<string>1.1.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
+				<true/>
 				<key>CanShowWhenRun</key>
 				<true/>
 				<key>Category</key>
 				<array>
-					<string>AMCategoryUtilities</string>
+					<string>AMCategoryFilesAndFolders</string>
 				</array>
 				<key>Class Name</key>
-				<string>AMLaunchApplicationAction</string>
+				<string>AMOpenFinderItems</string>
 				<key>InputUUID</key>
-				<string>E9B20895-F67F-4561-9C27-41FFA01C5C68</string>
+				<string>F5A6638E-238E-4E1B-BC9F-AE4610632672</string>
 				<key>Keywords</key>
 				<array>
-					<string>File</string>
 					<string>Open</string>
+					<string>Document</string>
+					<string>File</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>F9616BC5-BEFA-4D01-AE25-547D73E8D7FD</string>
+				<string>A0B2D3FA-46FC-48D3-801A-7B75017B78D4</string>
 				<key>UUID</key>
-				<string>91E152AE-5775-4AC7-BFD2-C4874F051383</string>
+				<string>9C43556A-1737-414D-8A3C-CB0493536867</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Finder</string>
@@ -95,7 +213,7 @@
 					<key>0</key>
 					<dict>
 						<key>default value</key>
-						<string>/Applications/Contacts.app</string>
+						<string></string>
 						<key>name</key>
 						<string>appPath</string>
 						<key>required</key>
@@ -111,9 +229,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>769.000000:285.000000</string>
+				<string>769.000000:344.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Launch Application.action/Contents/Resources/Base.lproj/main.nib</string>
+				<string>/System/Library/Automator/Open Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -184,179 +302,6 @@
 					<real>1</real>
 					<key>playbackSpeed_MIN</key>
 					<real>-1</real>
-					<key>timeoutCount</key>
-					<real>2</real>
-					<key>timeoutCount_MAX</key>
-					<real>1000</real>
-					<key>timeoutCount_MIN</key>
-					<real>0.0</real>
-					<key>timeoutIsError</key>
-					<true/>
-					<key>timeoutPerEvent</key>
-					<true/>
-					<key>userEvents</key>
-					<data>
-					YnBsaXN0MDDUAAEAAgADAAQABQAGAXsBfFgk
-					dmVyc2lvblgkb2JqZWN0c1kkYXJjaGl2ZXJU
-					JHRvcBIAAYagrxBiAAcACAAOAB4AHwAgACEA
-					IgAjACgALAA9AD4APwBAAEEAQgBDAEgASwBf
-					AGAAYQBiAGMAZABlAGYAZwBoAGkAagBrAGwA
-					bQB0AHgAewCdAJ4AnwCgAKEAogCjAKQApQCm
-					AKcAqACpALEAsgCzALsAvAC9AL4AvwDBAMkA
-					ygDLAMwAzQDVANYA1wDfAOAA4QDiAOYA6gDu
-					AO8A8AD1APgBBAEJAQwBIAEhASIBIwEmAUgB
-					SQFKAVIBWgFiAWoBcgFzAXYBd1UkbnVsbNIA
-					CQAKAAsADVpOUy5vYmplY3RzViRjbGFzc6EA
-					DIACgEfYAA8ACgAQABEAEgATABQAFQAWABcA
-					GAAZABoAGwAcAB1YdWlFdmVudHNfEBFzY3Jl
-					ZW5DYXB0dXJlRGF0YVd0aW1lb3V0VWRlbGF5
-					W3Byb2Nlc3NOYW1lXxAPdXNlckRlc2NyaXB0
-					aW9uWmFjdGlvbk5hbWWACIBhgACAB4AGgASA
-					BYADXU1vdXNlIENsaWNrZWRUTGl2ZW8QKQBC
-					AHIAaQBuAGcAIAB0AGgAZQAgAHcAaQBuAGQA
-					bwB3ACAgHABVAG4AdABpAHQAbABlAGQgHQAg
-					AHQAbwAgAHQAaABlACAAZgByAG8AbgB0AC4j
-					QAncd98jgFIjQAAAAAAAAADSAAkACgAkAA2i
-					ACUAJoAJgE2AR9IAKQAKACoAK1pwcm9wZXJ0
-					aWVzgAqATNMALQAJAAoALgA1ADxXTlMua2V5
-					c6YALwAwADEAMgAzADSAC4AMgA2ADoAPgBCm
-					ADYANwAbADkAOgAZgBGASIAEgEqAS4AHgCJd
-					Y2hpbGRyZW5TdGFja1tjZ0V2ZW50RGF0YVtw
-					cm9jZXNzTmFtZV8QI2tVSVJFdmVudERlbGF5
-					U2Vjb25kc0JlZm9yZVBsYXliYWNrXxAXZGVz
-					Y3JpcHRpb25Gb3JtYXRTdHJpbmdfECJrVUlS
-					RXZlbnRUaW1lb3V0U2Vjb25kc0ZvclBsYXli
-					YWNr0gAJAAoARAANogBFAEaAEoAkgEfSACkA
-					CgBJAEqAE4Aj0wAtAAkACgBMAFUAPKgATQBO
-					AE8AUABRAFIAUwBUgBSAFYAWgBeAGIAZgBqA
-					G6gAVgBXAFgAGwBaAFsAWABdgByAHYAegASA
-					H4AggB6AIYAiVkFYUm9sZV8QEkNGQnVuZGxl
-					SWRlbnRpZmllclhBWEhpZGRlbldBWFRpdGxl
-					XxARQVhSb2xlRGVzY3JpcHRpb25fEBdrVUlF
-					bGVtZW50Q2hpbGRyZW5Db3VudF8QF0FYRW5o
-					YW5jZWRVc2VySW50ZXJmYWNlW0FYRnJvbnRt
-					b3N0XUFYQXBwbGljYXRpb25fEBBjb20uYWJs
-					ZXRvbi5saXZlCFthcHBsaWNhdGlvbhAECdIA
-					bgBvAHAAcVokY2xhc3NuYW1lWCRjbGFzc2Vz
-					XxATTlNNdXRhYmxlRGljdGlvbmFyeaMAcABy
-					AHNcTlNEaWN0aW9uYXJ5WE5TT2JqZWN00gBu
-					AG8AdQB2XxAdVUlSQWNjZXNzaWJpbGl0eUVs
-					ZW1lbnRSZWNvcmSiAHcAc18QHVVJUkFjY2Vz
-					c2liaWxpdHlFbGVtZW50UmVjb3Jk0gApAAoA
-					eQBKgCWAI9MALQAJAAoAfACMADyvEA8AfQBS
-					AH8AgACBAE0AgwCEAFAAhgCHAIgAiQCKAIuA
-					JoAZgCeAKIApgBSAKoArgBeALIAtgC6AL4Aw
-					gDGvEA8AjQBbAFgAkABdAJIAXQBYAJUAlgCX
-					AFgAmQCaAJeAMoAggB6AQIAhgEGAIYAegEKA
-					Q4BEgB6ARYBGgESAIldBWEZyYW1lV0FYTW9k
-					YWxWQVhTaXplWUFYRm9jdXNlZFZBWE1haW5c
-					QVhGdWxsU2NyZWVuWkFYUG9zaXRpb25fEA9r
-					VUlFbGVtZW50SW5kZXhbQVhNaW5pbWl6ZWRf
-					EBFBWFJvbGVEZXNjcmlwdGlvbllBWFN1YnJv
-					bGVfEBNrVUlFbGVtZW50Um9sZUluZGV40wAt
-					AAkACgCqAK0AsKIAqwCsgDOANKIArgCvgDWA
-					O4A6Vm9yaWdpblRzaXpl0wAtAAkACgC0ALcA
-					sKIAtQC2gDaAN6IAuAC5gDiAOYA6UXhReSMA
-					AAAAAAAAACNANwAAAAAAANIAbgBvAHIAwKIA
-					cgBz0wAtAAkACgDCAMUAsKIAwwDEgDyAPaIA
-					xgDHgD6AP4A6VXdpZHRoVmhlaWdodCNAngAA
-					AAAAACNAklAAAAAAANMALQAJAAoAzgDRALCi
-					AMMAxIA8gD2iAMYAx4A+gD+AOlhBWFdpbmRv
-					d1hVbnRpdGxlZNMALQAJAAoA2ADbALCiALUA
-					toA2gDeiALgAuYA4gDmAOhACXxAPc3RhbmRh
-					cmQgd2luZG93XxAQQVhTdGFuZGFyZFdpbmRv
-					d9IAbgBvAOMA5F5OU011dGFibGVBcnJheaMA
-					4wDlAHNXTlNBcnJhedIA5wAKAOgA6VdOUy5k
-					YXRhTxDQAAAAAgABQDUAAAADAAFANgAAAAAA
-					AUA3AAAAAQACwDhEhLVARHLFAAACwDlEhLVA
-					RG0FAAABADpNpLHgAAB21QABQDsAAAAAAAFA
-					MwAAD1wAAUA0AAFViwABQGoAAASUAAFAawAA
-					BLAAAUAHAAAAAwABQAAAAB8xAAFAAQAAAAEA
-					AUACAAAA/wABQAMAAAAAAAFABAAAAAAAAUAF
-					AAAAAAABQAYAAAAAAAFAWQAAAKoAAUBaAAAA
-					FAABQFsAAA9cAAFAXAAAD1wAAUBsAAAAAYBJ
-					0gBuAG8A6wDsXU5TTXV0YWJsZURhdGGjAOsA
-					7QBzVk5TRGF0YSNACdx33yOAUl8QISVAIG9u
-					IHdpbmRvdyBcVTIwMUNVbnRpdGxlZFxVMjAx
-					RNIAbgBvAPEA8l1VSVJNb3VzZUV2ZW50owDz
-					APQAc11VSVJNb3VzZUV2ZW50WFVJUkV2ZW50
-					0gApAAoA9gArgE6ATNMALQAJAAoA+QD+ADyk
-					AC8AMAAxADOAC4AMgA2AD6QA/wEAABsBAoBP
-					gF+ABIBggCLSAAkACgEFAA2iAQYBB4BQgFWA
-					R9IAKQAKAQoASoBRgCPTAC0ACQAKAQ0BFgA8
-					qABNAE4ATwBQARIAUgEUARWAFIAVgBaAF4BS
-					gBmAU4BUqABWAFcAWAAbAFoAWwBYAF2AHIAd
-					gB6ABIAfgCCAHoAhgCJfEBFBWFJvbGVEZXNj
-					cmlwdGlvbl8QF0FYRW5oYW5jZWRVc2VySW50
-					ZXJmYWNlW0FYRnJvbnRtb3N00gApAAoBJABK
-					gFaAI9MALQAJAAoBJwE3ADyvEA8AfQBSAH8A
-					gACBAE0AgwEvAFAAhgCHAIgBNACKAIuAJoAZ
-					gCeAKIApgBSAKoBXgBeALIAtgC6AWIAwgDGv
-					EA8BOABbAFgBOwBdAJIAXQBYAJUBQQCXAFgA
-					mQFFAJeAWYAggB6AXIAhgEGAIYAegEKAXYBE
-					gB6ARYBegESAIlxBWEZ1bGxTY3JlZW5fEBFB
-					WFJvbGVEZXNjcmlwdGlvbtMALQAJAAoBSwFO
-					ALCiAKsArIAzgDSiAU8BUIBagFuAOtMALQAJ
-					AAoBUwFWALCiALUAtoA2gDeiALgAuYA4gDmA
-					OtMALQAJAAoBWwFeALCiAMMAxIA8gD2iAMYA
-					x4A+gD+AOtMALQAJAAoBYwFmALCiAMMAxIA8
-					gD2iAMYAx4A+gD+AOtMALQAJAAoBawFuALCi
-					ALUAtoA2gDeiALgAuYA4gDmAOl8QEEFYU3Rh
-					bmRhcmRXaW5kb3fSAOcACgF0AOlPENAAAAAC
-					AAFANQAAAAMAAUA2AAAAAAABQDcAAAACAALA
-					OESEtUBEcsUAAALAOUSEtUBEbQUAAAEAOl6x
-					oa0AAHbVAAFAOwAAAAAAAUAzAAAPXAABQDQA
-					AVWLAAFAagAABJQAAUBrAAAEsAABQAcAAAAD
-					AAFAAAAAHzEAAUABAAAAAQABQAIAAAAAAAFA
-					AwAAAAAAAUAEAAAAAAABQAUAAAAAAAFABgAA
-					AAAAAUBZAAAAqgABQFoAAAAUAAFAWwAAD1wA
-					AUBcAAAPXAABQGwAAAAAgElfECElQCBvbiB3
-					aW5kb3cgXFUyMDFDVW50aXRsZWRcVTIwMUTS
-					AG4AbwF4AXleQU1VSVJVc2VyRXZlbnSiAXoA
-					c15BTVVJUlVzZXJFdmVudF8QD05TS2V5ZWRB
-					cmNoaXZlctEBfQF+VHJvb3SAAQAIABkAIgAr
-					ADUAOgA/AQYBDAEVASABJwEqASwBLgFPAVgB
-					bAF0AXoBhgGYAaMBpQGnAakBqwGtAa8BsQGz
-					AcEBxgIbAiQCLQI2AjsCPQI/AkECSgJVAlcC
-					WQJmAm4CewJ9An8CgQKDAoUChwKUApYCmAKa
-					ApwCngKgAqICsAK8AsgC7gMIAy0DNgM7Az0D
-					PwNBA0oDTANOA1sDbANuA3ADcgN0A3YDeAN6
-					A3wDjQOPA5EDkwOVA5cDmQObA50DnwOmA7sD
-					xAPMA+AD+gQUBCAELgRBBEIETgRQBFEEWgRl
-					BG4EhASLBJgEoQSqBMoEzwTvBPgE+gT8BQkF
-					KgUsBS4FMAUyBTQFNgU4BToFPAU+BUAFQgVE
-					BUYFSAVpBWsFbQVvBXEFcwV1BXcFeQV7BX0F
-					fwWBBYMFhQWHBYkFkQWZBaAFqgWxBb4FyQXb
-					BecF+wYFBhsGKAYtBi8GMQY2BjgGOgY8BkMG
-					SAZVBloGXAZeBmMGZQZnBmkGawZtBnYGfwaI
-					Bo0GmgafBqEGowaoBqoGrAauBrQGuwbEBs0G
-					2gbfBuEG4wboBuoG7AbuBvcHAAcNBxIHFAcW
-					BxsHHQcfByEHIwc1B0gHUQdgB2cHbwd4B4AI
-					UwhVCF4IbAhzCHoIgwinCLAIvgjFCNMI3Ajl
-					COcI6Qj2CP8JAQkDCQUJBwkQCRIJFAkWCRgJ
-					GgkjCSgJKgksCS4JNwk5CTsJSAlZCVsJXQlf
-					CWEJYwllCWcJaQl6CXwJfgmACYIJhAmGCYgJ
-					igmMCaAJugnGCc8J0QnTCeAKAQoDCgUKBwoJ
-					CgsKDQoPChEKEwoVChcKGQobCh0KHwpACkIK
-					RApGCkgKSgpMCk4KUApSClQKVgpYCloKXApe
-					CmAKbQqBCo4KkwqVCpcKnAqeCqAKogqvCrQK
-					tgq4Cr0KvwrBCsMK0ArVCtcK2QreCuAK4grk
-					CvEK9gr4CvoK/wsBCwMLBQsSCxcLGQsbCyAL
-					IgskCyYLOQtCDBUMFww7DEQMUwxYDGcMeQx+
-					DIMAAAAAAAACAgAAAAAAAAF/AAAAAAAAAAAA
-					AAAAAAAMhQ==
-					</data>
-				</dict>
-				<key>ActionRuntimeParameters</key>
-				<dict>
-					<key>playbackSpeed</key>
-					<real>0.0</real>
-					<key>playbackSpeed_MAX</key>
-					<real>1</real>
-					<key>playbackSpeed_MIN</key>
-					<real>-1</real>
-					<key>temporary items path</key>
-					<string>/var/folders/xg/6xh4w2j12ld85q25t6l0xglc0000gn/T/16191649-5F7E-4D1B-8A26-E266B32847BF/1/com.apple.Automator.WatchMeDo</string>
 					<key>timeoutCount</key>
 					<real>2</real>
 					<key>timeoutCount_MAX</key>
@@ -676,7 +621,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>769.000000:688.000000</string>
+				<string>769.000000:747.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Watch Me Do.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -686,10 +631,17 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>8B24B6B6-7E9E-4FDC-8194-20F7541CC514</key>
+		<key>707863D3-4DA4-4028-9BEE-0E8907086133</key>
 		<dict>
 			<key>from</key>
-			<string>91E152AE-5775-4AC7-BFD2-C4874F051383 - 91E152AE-5775-4AC7-BFD2-C4874F051383</string>
+			<string>65CA91B5-230E-4F90-83EA-9BA790ED2A24 - 65CA91B5-230E-4F90-83EA-9BA790ED2A24</string>
+			<key>to</key>
+			<string>9C43556A-1737-414D-8A3C-CB0493536867 - 9C43556A-1737-414D-8A3C-CB0493536867</string>
+		</dict>
+		<key>F4726361-D791-4920-8CF8-094798049D14</key>
+		<dict>
+			<key>from</key>
+			<string>9C43556A-1737-414D-8A3C-CB0493536867 - 9C43556A-1737-414D-8A3C-CB0493536867</string>
 			<key>to</key>
 			<string>2E0E5B07-E1C9-4AA4-A0A8-C405E24D3F9F - 2E0E5B07-E1C9-4AA4-A0A8-C405E24D3F9F</string>
 		</dict>
