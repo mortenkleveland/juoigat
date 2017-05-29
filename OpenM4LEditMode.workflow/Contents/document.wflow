@@ -55,15 +55,6 @@
 						<string>~/Documents/Ableton/SamiskMusikk Project/SamiskMusikk.als</string>
 					</array>
 				</dict>
-				<key>ActionRuntimeParameters</key>
-				<dict>
-					<key>fileNames</key>
-					<array>
-						<string>~/Documents/Ableton/SamiskMusikk Project/SamiskMusikk.als</string>
-					</array>
-					<key>temporary items path</key>
-					<string>/var/folders/xg/6xh4w2j12ld85q25t6l0xglc0000gn/T/16191649-5F7E-4D1B-8A26-E266B32847BF/1/com.apple.Automator.SpecifiedFiles</string>
-				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.SpecifiedFiles</string>
 				<key>CFBundleVersion</key>
@@ -170,13 +161,6 @@
 				<dict>
 					<key>appPath</key>
 					<string>/Applications/Ableton Live 9 Suite.app</string>
-				</dict>
-				<key>ActionRuntimeParameters</key>
-				<dict>
-					<key>appPath</key>
-					<string>/Applications/Ableton Live 9 Suite.app</string>
-					<key>temporary items path</key>
-					<string>/var/folders/xg/6xh4w2j12ld85q25t6l0xglc0000gn/T/16191649-5F7E-4D1B-8A26-E266B32847BF/1/com.apple.Automator.OpenFinderItems</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.OpenFinderItems</string>
