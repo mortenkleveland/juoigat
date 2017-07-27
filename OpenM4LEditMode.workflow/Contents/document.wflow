@@ -55,6 +55,15 @@
 						<string>~/Documents/Ableton/SamiskMusikk Project/SamiskMusikk.als</string>
 					</array>
 				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>fileNames</key>
+					<array>
+						<string>~/Documents/Ableton/SamiskMusikk Project/SamiskMusikk.als</string>
+					</array>
+					<key>temporary items path</key>
+					<string>/var/folders/xg/6xh4w2j12ld85q25t6l0xglc0000gn/T/CC86A3C0-E24D-4F82-AE02-58FB4494041F/1/com.apple.Automator.SpecifiedFiles</string>
+				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.SpecifiedFiles</string>
 				<key>CFBundleVersion</key>
@@ -102,12 +111,10 @@
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>769.000000:240.000000</string>
+				<string>649.000000:240.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Specified Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -162,6 +169,13 @@
 					<key>appPath</key>
 					<string>/Applications/Ableton Live 9 Suite.app</string>
 				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>appPath</key>
+					<string>/Applications/Ableton Live 9 Suite.app</string>
+					<key>temporary items path</key>
+					<string>/var/folders/xg/6xh4w2j12ld85q25t6l0xglc0000gn/T/CC86A3C0-E24D-4F82-AE02-58FB4494041F/1/com.apple.Automator.OpenFinderItems</string>
+				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.OpenFinderItems</string>
 				<key>CFBundleVersion</key>
@@ -208,12 +222,10 @@
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>769.000000:344.000000</string>
+				<string>649.000000:344.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Open Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -600,12 +612,10 @@
 						<string>8</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>769.000000:747.000000</string>
+				<string>649.000000:567.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Watch Me Do.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -615,19 +625,19 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>707863D3-4DA4-4028-9BEE-0E8907086133</key>
-		<dict>
-			<key>from</key>
-			<string>65CA91B5-230E-4F90-83EA-9BA790ED2A24 - 65CA91B5-230E-4F90-83EA-9BA790ED2A24</string>
-			<key>to</key>
-			<string>9C43556A-1737-414D-8A3C-CB0493536867 - 9C43556A-1737-414D-8A3C-CB0493536867</string>
-		</dict>
-		<key>F4726361-D791-4920-8CF8-094798049D14</key>
+		<key>1A3C29AD-1283-4852-A457-9D139A39411F</key>
 		<dict>
 			<key>from</key>
 			<string>9C43556A-1737-414D-8A3C-CB0493536867 - 9C43556A-1737-414D-8A3C-CB0493536867</string>
 			<key>to</key>
 			<string>2E0E5B07-E1C9-4AA4-A0A8-C405E24D3F9F - 2E0E5B07-E1C9-4AA4-A0A8-C405E24D3F9F</string>
+		</dict>
+		<key>3E734749-235D-4267-8D2B-54384637FCF3</key>
+		<dict>
+			<key>from</key>
+			<string>65CA91B5-230E-4F90-83EA-9BA790ED2A24 - 65CA91B5-230E-4F90-83EA-9BA790ED2A24</string>
+			<key>to</key>
+			<string>9C43556A-1737-414D-8A3C-CB0493536867 - 9C43556A-1737-414D-8A3C-CB0493536867</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
