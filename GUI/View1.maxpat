@@ -38,16 +38,61 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"markers" : [ -60, -48, -36, -24, -12, -6, 0, 6 ],
+					"markersused" : 8,
+					"maxclass" : "levelmeter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 459.0, 335.0, 128.0, 64.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 273.0, 101.0, 128.0, 64.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-4",
+					"index" : 2,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 243.0, 91.0, 30.0, 30.0 ],
+					"presentation_rect" : [ 243.0, 92.0, 0.0, 0.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-3",
+					"index" : 1,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 182.0, 91.0, 30.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 36.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.0, 42.0, 378.0, 47.0 ],
+					"patching_rect" : [ 334.0, 265.0, 378.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 148.0, 42.0, 378.0, 47.0 ],
 					"style" : "",
-					"text" : "Del XXX",
+					"text" : "Del 2",
 					"textjustification" : 1
 				}
 
@@ -61,16 +106,21 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -4.0, 2.5, 726.0, 512.0 ],
+					"patching_rect" : [ 182.0, 225.5, 726.0, 512.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
 
 			}
  ],
-		"lines" : [  ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+ ]
 	}
 
 }
